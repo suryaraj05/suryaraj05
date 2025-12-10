@@ -92,8 +92,6 @@ They’re **engineering journeys** I’m documenting week-by-week.
 
 ### **⚙ DevOps Journey →** Deployments, CI/CD, and automation
 
-### **🏫 SaaS Design →** Microservices + caching + fault-tolerance patterns
-
 Each repo grows like a story — chapter by chapter.
 
 ---
