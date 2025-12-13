@@ -139,6 +139,4 @@ I’d love to brainstorm, collaborate, or contribute.
 
 # ⭐ *“I don’t chase perfection — I design for evolution.”*
 
-This is the exact vibe your GitHub profile should reflect.
-
 ---
