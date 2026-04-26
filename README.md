@@ -1,142 +1,113 @@
+# Surya Raj Salve — Agentic AI Engineer
 
-# ⚡ **Salve Surya Raj**
-
-### *Builder. Problem Solver. System Thinker.*
-
-### *I craft scalable apps, intuitive experiences, and reliable systems.*
+> *I build AI systems that plan, decide, and act — not just respond.*
 
 ---
 
-## 🧩 **Who I Am (Beyond Code)**
+## What I'm Building
 
-I started as a curious kid who loved building things — mechanical inventions first (I won **2 international gold medals** and **4 national gold medals** in innovation at 15).
-Now that same spark fuels my journey in **software engineering**, where I combine creativity, engineering discipline, and insane persistence to build things that *scale*.
+**NINA** — A plug-and-play voice AI agent SDK. Single script tag gives any website a voice-driven agent that navigates, searches, and clicks via natural language commands. Dual-path inference: deterministic fast-path (~5ms) for 60% of queries, Llama 3.1 semantic path for complex commands. Auth-obstacle recovery. Multi-tenant SaaS.
 
-Today I’m a:
-
-* **Freelancer** who delivers complete products (apps, SaaS platforms, e-commerce systems, booking portals, fintech workflows, dashboards).
-* **ML & System Design Enthusiast** preparing for the road to becoming a **scalable systems architect**.
-* **Hackathon Winner** (YUVA Hackathon @ RGUKT Basar, Siemens Tech For Society 2025).
-* **Builder who ships** — not just experiments.
-
-I don’t wait for the “right time.”
-I build. Every. Single. Day.
+`LangChain` `FastAPI` `Groq/Llama 3.1` `TypeScript SDK` `Supabase` `Shadow DOM` `Docker`
 
 ---
 
-## 🛠️ **What I Build**
+## Flagship Projects
 
-I’ve created systems across multiple domains:
+### TaxSetu — 5-Agent GST Compliance Platform
+Multi-agent orchestration where a Master Planner coordinates 5 specialized agents:
+- **Watcher** — OCR invoice ingestion via Gemini
+- **Calculator** — GST logic + ITC reconciliation  
+- **Filer** — pre-flight filing validation
+- **Guardian** — notice analysis + risk scoring
+- **Narrator** — Hindi multilingual explanations
 
-### **📦 Logistics**
+Each agent emits structured JSON with `decision`, `reasoning`, `confidence`, `notify-flags` for audit-ready workflows.
 
-* *parcelhorse.com*
-* Courier/parcel management platforms
-* Delivery workflow automations
-
-### **🛒 E-commerce & Retail**
-
-* E-commerce stores
-* Catalog engines
-* Cart + Inventory + Payment integrations
-
-### **📱 Mobile Apps**
-
-* **ShotOK** (Android app)
-* Several Flutter & React Native products for clients
-
-### **💼 SaaS Platforms**
-
-* Cashback platform
-* Booking management system
-* School management system (microservices + Redis + email pipelines)
-* Journaling + Neuroplasticity platform
-
-### **📊 Tools & Dashboards**
-
-* Scorecard systems
-* Admin dashboards
-* Analytics visualizations
-
-**Everything I build has one common goal:**
-✨ *It must scale elegantly.*
+`Gemini API` `React 18` `Firebase` `Node.js` `Cloud Functions` `Multi-Agent`
 
 ---
 
-## 🧠 **What I’m Pursuing Now**
+### VisionSync — Agentic Film Pre-Production Platform
+End-to-end agentic pipeline: brief → script → previz → risk analysis. Specialized agents for story-flow, character-arc, plot-hole detection. Gemini Vision + Stability AI SDXL for multimodal previz generation. **6th Place — CineAI Hackathon, T-Works Hyderabad.**
 
-My north star is simple:
-
-### **Become a Scalable System Architect**
-
-To reach that, I’m learning and practicing:
-
-* **System Design** — load balancing, caching, queues, replicas, fault tolerance
-* **Backend Engineering** — Spring Boot, FastAPI, microservices
-* **Machine Learning** — the math + intuition + deployment side
-* **DevOps** — Docker, CI/CD, cloud, automation pipelines
-
-I don’t want to just know ML or backend —
-I want to *engineer ecosystems* that handle real-world scale.
+`Gemini Vision` `Stability AI SDXL` `TypeScript` `Express` `Firestore`
 
 ---
 
-## 🚀 **Active Learning Projects**
+### WattWise — Electricity Forecasting Platform
+ML model for electricity demand forecasting integrated into a business dashboard. **Winner — NASSCOM × Siemens Tech For Society Hackathon (National Level).**
 
-These are not “courses.”
-They’re **engineering journeys** I’m documenting week-by-week.
-
-### **📘 ML Learning Journey →** From NumPy to full pipelines
-
-### **🏗 System Design Journey →** Designing scalable architectures
-
-### **⚙ DevOps Journey →** Deployments, CI/CD, and automation
-
-Each repo grows like a story — chapter by chapter.
+`Python` `TensorFlow` `ML` `Node.js` `Dashboard`
 
 ---
 
-## 🔧 **Tech That I Use to Build**
+### Campus Connect — AI Grievance Triage
+Gemini as triage agent: multimodal input → structured JSON → department routing + deduplication. 20+ REST endpoints, role-based lifecycle. **Winner — Smart India Hackathon Internal Round.**
 
-Languages: **Python, Java, JavaScript, Dart**
-Backend: **Spring Boot, FastAPI, Node.js**
-ML: **NumPy, Pandas, Matplotlib, Scikit-Learn**
-Databases: **PostgreSQL, MongoDB, Redis**
-DevOps: **Docker, GitHub Actions, VPS Deployments**
-Tools: **Linux, Git, Postman, VS Code, IntelliJ**
+`LangChain` `Gemini 2.5 Flash` `Flutter` `Firebase` `Node.js`
 
 ---
 
-## 🏆 **Achievements**
+## International Client Work
 
-* 🥇 **Winner – YUVA Hackathon (RGUKT Basar)**
-* 🥇 **Winner – Siemens Tech For Society Hackathon 2025**
-* 🥇🥇 **2× International Gold Medalist in Inventions**
-* 🥇🥇🥇🥇 **4× National Gold Medalist in Mechanical Innovations**
-* 🎯 Built 10+ real-world products, 30+ projects
+2.5+ years freelancing for production clients:
 
-Each win represents a story of failing, iterating, learning, and shipping.
-
----
-
-## 🧭 **What Drives Me**
-
-* I build because solving problems feels like breathing.
-* I love systems that behave like living organisms — stable, adaptive, scalable.
-* I believe code becomes beautiful when it survives real users.
+| Platform | Region | What I built |
+|---|---|---|
+| PrestaluxMonaco.com | 🇲🇨 Monaco | Luxury events platform — Monaco GP, Rolex events |
+| ParcelHorse.com | 🇬🇧 UK | International logistics + tracking |
+| BharatMart.uk | 🇬🇧 UK | Cross-border e-commerce for Indian diaspora |
+| TightHug.in | 🇮🇳 India | Full-stack clothing store + admin panel |
+| EnergyProphet.pro | 🇮🇳 India | ML-integrated energy forecasting dashboard |
+| Devoura.work | 🇮🇳 India | AI-powered multi-tenant school platform |
 
 ---
 
-## 📬 **Let’s Connect**
+## Stack
 
-If you're building something challenging —
-I’d love to brainstorm, collaborate, or contribute.
-
-📧 Email: *suryarajsalve@gmail.com*
-🌐 GitHub: **github.com/suryaraj05**
+```
+Agentic AI    →  LangChain · LangGraph · CrewAI · AutoGen · MCP
+LLM & RAG     →  Gemini API · Groq · OpenAI · Pinecone · Chroma · pgvector
+Voice AI      →  NINA SDK · Whisper · TTS APIs · LiveKit · Web Speech API
+Backend       →  Node.js · FastAPI · Express · Python · JWT Auth · REST APIs
+Frontend      →  React 18 · TypeScript · Flutter · Tailwind CSS
+Databases     →  MongoDB · Supabase (PostgreSQL) · Firebase · Firestore
+DevOps        →  Docker · Nginx · Vercel · Firebase Hosting · GitHub Actions
+ML / NLP      →  TensorFlow · BiLSTM · Stability AI · Gemini Vision
+```
 
 ---
 
-# ⭐ *“I don’t chase perfection — I design for evolution.”*
+## Achievements
+
+```
+🏆  Winner — NASSCOM × Siemens Tech For Society Hackathon (National)   2024
+🏆  Winner — Yuva Hackathon · IIIT Basar                               2023
+🏆  Winner — Smart India Hackathon Internal Round                       2024
+🥈  6th Place — CineAI Hackathon · T-Works Hyderabad                   2026
+🎯  Participant — Build For India · KSUM Kerala                         2026
+🥇  2× International Gold Medal in Innovation (age 15)
+🥇  4× National Gold Medal in Mechanical Innovation (age 15)
+```
 
 ---
+
+## Currently
+
+- 🔨 Building **NINA** — targeting open-source release
+- 📚 Going deep on **LangGraph**, **CrewAI**, **MCP**, **RAG pipelines**, **SLM fine-tuning**
+- 🎯 Open to **remote AI engineering roles** — full-time or internship with PPO
+- 📍 Based in **Hyderabad, India** — available immediately
+
+---
+
+## Connect
+
+- 📧 suryarajsalve@gmail.com
+- 💼 [linkedin.com/in/salve-surya-raj](https://linkedin.com/in/salve-surya-raj)
+- 🌐 [Portfolio](https://suryarajsalve.vercel.app) ← add your link here
+
+---
+
+*Building AI systems that plan, decide, and act — one agent at a time.*
