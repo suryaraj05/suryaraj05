@@ -193,6 +193,6 @@ ml          = ["TensorFlow", "BiLSTM", "Stability AI SDXL", "Gemini Vision"]
 
 *"I build AI systems that plan, decide, and act — not just respond."*
 
-**[Portfolio](https://suryarajsalve.dev)** · **[LinkedIn](https://linkedin.com/in/salve-surya-raj)** · **[Email](mailto:suryarajsalve@gmail.com)**
+**[Portfolio](https://suryarajsalve.vercel.app)** · **[LinkedIn](https://linkedin.com/in/salve-surya-raj)** · **[Email](mailto:suryarajsalve@gmail.com)**
 
 </div>
