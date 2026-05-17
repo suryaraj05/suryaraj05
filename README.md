@@ -1,13 +1,13 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║          SURYA RAJ SALVE — AGENTIC AI ENGINEER               ║
-║     I build AI systems that plan, decide, and act.           ║
-╚══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════╗
+║            SURYA RAJ SALVE — AGENTIC AI ENGINEER                 ║
+║     I build AI systems that plan, decide, and act.               ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Building+voice+AI+agents+%F0%9F%8E%99%EF%B8%8F;Multi-agent+orchestration+systems+%F0%9F%A4%96;LangChain+%C2%B7+LangGraph+%C2%B7+RAG+%C2%B7+Gemini+API;Available+for+remote+roles+%E2%9C%85)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Production+AI+Agents+%E2%80%94+end+to+end+%F0%9F%A4%96;Voice+AI+pipelines+that+actually+ship+%F0%9F%8E%99%EF%B8%8F;LangGraph+%C2%B7+Multi-Agent+Orchestration+%C2%B7+RAG;2.5%2B+years+building+for+real+clients+%F0%9F%8C%8D)](https://git.io/typing-svg)
 
 </div>
 
@@ -21,29 +21,40 @@
 &nbsp;&nbsp;
 [![Email](https://img.shields.io/badge/Email-suryarajsalve%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:suryarajsalve@gmail.com)
 &nbsp;&nbsp;
-![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Remote%20Roles-00ff88?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Remote%20Roles-00ff88?style=flat-square)
 
 </div>
 
 ---
 
-## ⚡ What I'm Building
+## 🎯 What I specialise in
 
-> **NINA** — A plug-and-play voice AI agent SDK. Drop one script tag on any website → users can navigate, search, and click via natural language voice commands.
+I build **production-grade AI agent systems** and **end-to-end Voice AI pipelines** — not demos, not tutorials, but systems that handle real users, real failures, and real scale.
+
+My depth is at the intersection most engineers avoid: **multi-agent orchestration** that coordinates complex decisions across autonomous components, paired with **low-latency voice pipelines** where every millisecond of architectural choice is visible to the user.
+
+Two years of freelancing for international clients taught me something courses don't: **production systems break in ways prototypes never reveal.** That gap — between working locally and working reliably — is where I operate.
+
+---
+
+## ⚡ Currently Building
 
 ```
 Architecture:
-┌─────────────────────────────────────────────────────────┐
-│  Voice Input → STT → Intent Parser → Path Router        │
-│                                          ↓              │
-│  Fast Path (≥0.82 match) → Direct DOM action (~5ms)     │
-│  LLM Path (Llama 3.1) → Semantic reasoning              │
-│                          ↓                              │
-│  Auth Blocker? → Save → Redirect → Auto-replay ✓        │
-└─────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+│  VOICE AGENT PIPELINE (open source · in progress)           │
+│                                                             │
+│  Speech Input → Deepgram STT → LangGraph Orchestrator       │
+│                                      ↓                      │
+│  Agent Memory (episodic + semantic) → LLM Reasoning         │
+│                                      ↓                      │
+│  ElevenLabs TTS → Streaming Response → < 1.2s latency       │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-`TypeScript SDK` `FastAPI` `Groq/Llama 3.1` `Supabase` `Shadow DOM` `Docker`
+`LangGraph` `Deepgram` `ElevenLabs` `FastAPI` `Streaming` `Agent Memory`
+
+> Full repo dropping soon — production-ready, documented, deployable in one command.
 
 ---
 
@@ -73,6 +84,27 @@ Each agent emits structured JSON:
 </td>
 <td width="50%" valign="top">
 
+### 🎙️ [NINA](https://github.com/suryaraj05/nina)
+**Voice AI Navigation SDK**
+
+```
+Voice Input → STT → Intent Parser → Path Router
+                                        ↓
+Fast Path (≥0.82 match) → Direct DOM (~5ms)
+LLM Path (Llama 3.1)   → Semantic reasoning
+                                        ↓
+Auth Blocker? → Save → Redirect → Auto-replay ✓
+```
+
+Single script tag. Any website. Any user.
+
+`LangChain` `FastAPI` `Groq` `Supabase` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🎬 [VisionSync](https://github.com/suryaraj05/visionsync-backend)
 **Agentic Film Pre-Production Pipeline**
 
@@ -88,20 +120,6 @@ Chain   Chain   Vision      Scorer
 `Gemini Vision` `Stability AI SDXL` `TypeScript` `Express`
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎙️ [NINA](https://github.com/suryaraj05/nina)
-**Voice AI Navigation SDK**
-
-Single script tag. Any website. Voice commands.
-Dual-path inference. Auth-obstacle recovery.
-Multi-tenant SaaS with real-time dashboard.
-
-`LangChain` `FastAPI` `Groq` `Supabase` `Docker`
-
-</td>
 <td width="50%" valign="top">
 
 ### ⚡ [WattWise](https://github.com/suryaraj05/wattwise)
@@ -110,9 +128,14 @@ Multi-tenant SaaS with real-time dashboard.
 **🏆 Winner — NASSCOM × Siemens Tech For Society**
 *National Level Hackathon*
 
-ML model → Business dashboard → Multi-role access
+```
+Raw grid data → BiLSTM model → Forecasted load
+                     ↓
+         Business dashboard → Multi-role access
+         Anomaly detection  → Alert system
+```
 
-`Python` `TensorFlow` `Node.js` `ML Pipeline`
+`Python` `TensorFlow` `BiLSTM` `Node.js`
 
 </td>
 </tr>
@@ -131,14 +154,16 @@ ML model → Business dashboard → Multi-role access
 | **EnergyProphet.pro** | 🇮🇳 India | ML-integrated energy forecasting dashboard |
 | **Devoura.work** | 🇮🇳 India | AI-powered multi-tenant school platform |
 
+*2.5+ years · 6 production deployments · clients across 3 countries*
+
 ---
 
 ## 🛠️ Stack
 
 ```python
-agentic_ai  = ["LangChain", "LangGraph", "CrewAI", "AutoGen", "MCP"]
+agents      = ["LangGraph", "LangChain", "CrewAI", "AutoGen", "MCP"]
+voice_ai    = ["NINA SDK", "Whisper", "Deepgram", "ElevenLabs", "LiveKit", "Web Speech API"]
 llm_rag     = ["Gemini API", "Groq", "OpenAI", "Pinecone", "Chroma", "pgvector"]
-voice_ai    = ["NINA SDK", "Whisper", "TTS APIs", "LiveKit", "Web Speech API"]
 backend     = ["FastAPI", "Node.js", "Express", "Python", "JWT Auth"]
 frontend    = ["React 18", "TypeScript", "Flutter", "Tailwind CSS"]
 databases   = ["MongoDB", "Supabase", "Firebase", "PostgreSQL"]
@@ -182,10 +207,22 @@ ml          = ["TensorFlow", "BiLSTM", "Stability AI SDXL", "Gemini Vision"]
 
 ## 📍 Currently
 
-- 🔨 Shipping **NINA** — voice AI agent SDK for any website
-- 📚 Deep-diving **LangGraph** · **CrewAI** · **MCP** · **RAG pipelines**
-- 🎯 Open to **remote AI engineering roles** — full-time or internship+PPO
-- 📬 Reach me: **suryarajsalve@gmail.com** · [LinkedIn](https://linkedin.com/in/salve-surya-raj)
+- 🔨 Building **production AI agents** — health assistant + CA agent with voice at an AI startup
+- 🛠️ Open-sourcing a **Voice Agent Starter Kit** — end-to-end, production-ready, < 1.2s latency
+- 📚 Going deep on **LangGraph internals** · **agent memory architecture** · **streaming voice pipelines**
+- ✍️ Documenting what breaks and why → [OrbitX on Instagram](https://instagram.com/orbitx.builds)
+- 🎯 Open to **remote AI engineering roles** — full-time · internship+PPO
+- 📬 **suryarajsalve@gmail.com** · [LinkedIn](https://linkedin.com/in/salve-surya-raj)
+
+---
+
+## 💭 How I think about building
+
+Most agent demos collapse under three conditions: **stateful conversations**, **concurrent tool calls**, and **partial failures mid-graph.** I design for those from the start — not as an afterthought.
+
+For voice AI, the hard problem isn't speech recognition or synthesis. It's **latency budget management across an entire pipeline** where each component has variance. Getting consistently under 1.5 seconds end-to-end on real hardware is an architectural problem, not a model problem.
+
+This is the kind of thinking I bring to every system I build.
 
 ---
 
@@ -193,6 +230,6 @@ ml          = ["TensorFlow", "BiLSTM", "Stability AI SDXL", "Gemini Vision"]
 
 *"I build AI systems that plan, decide, and act — not just respond."*
 
-**[Portfolio](https://suryarajsalve.vercel.app)** · **[LinkedIn](https://linkedin.com/in/salve-surya-raj)** · **[Email](mailto:suryarajsalve@gmail.com)**
+**[Portfolio](https://suryarajsalve.vercel.app)** · **[LinkedIn](https://linkedin.com/in/salve-surya-raj)** · **[Email](mailto:suryarajsalve@gmail.com)** · **[OrbitX](https://instagram.com/orbitx.builds)**
 
 </div>
